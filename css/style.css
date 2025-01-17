@@ -3,12 +3,12 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity .1s ease-out, visibility 0s linear .1s;
     z-index: 99999;
 }
 
 #spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    transition: opacity .1s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
 }
@@ -18,7 +18,7 @@
     position: fixed;
     right: 30px;
     bottom: 30px;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: 99;
 }
 
@@ -26,7 +26,7 @@
 /*** Button Start ***/
 .btn {
     font-weight: 600;
-    transition: .5s;
+    transition: .2s;
 }
 
 .btn-square {
@@ -103,7 +103,7 @@
     background: var(--bs-light);
     padding-top: 12px;
     border: 0;
-    transition: .5s;
+    transition: .2s;
     opacity: 1;
 }
 
@@ -143,7 +143,7 @@
 
 .navbar-brand img{
     max-height: 60px;
-    transition: .5s;
+    transition: .2s;
 }
 }
 
@@ -222,7 +222,7 @@
 
 .navbar-light .navbar-brand img {
     max-height: 60px;
-    transition: .5s;
+    transition: .2s;
     
 }
 
@@ -342,7 +342,7 @@
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
         border: 0;
-        transition: .5s;
+        transition: .2s;
         opacity: 0;
     }
 
@@ -351,7 +351,7 @@
         visibility: visible;
         margin-top: 19px;
         background: var(--bs-white);
-        transition: .5s;
+        transition: .2s;
         opacity: 1;
     }
 
@@ -493,7 +493,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .header-carousel .owl-nav .owl-prev {
@@ -545,7 +545,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 0 60px 0;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .bg-breadcrumb .breadcrumb {
@@ -657,7 +657,7 @@
     border: 1px solid var(--bs-primary);
     color: var(--bs-dark);
     background: var(--bs-light);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .service-carousel .owl-nav .owl-prev:hover,
@@ -750,7 +750,7 @@
     left: 0;
     display: flex;
     background: rgba(246, 138, 10, .3);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .blog .blog-item:hover .blog-img::after {
@@ -759,7 +759,7 @@
 }
 
 .blog .blog-item .blog-img img {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .blog .blog-item:hover .blog-img img {
@@ -775,7 +775,7 @@
     position: relative;
     width: 100%;
     display: inline-flex;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: 2;
 }
 
@@ -786,7 +786,7 @@
     height: 100%;
     right: 0;
     bottom: 0;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: 1;
 }
 
@@ -811,7 +811,7 @@
 }
 
 .team .team-item .team-img img {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .team .team-item:hover .team-img img {
@@ -822,7 +822,7 @@
     position: absolute;
     bottom: 20px; right: -100%;
     z-index: 9;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .team .team-item:hover .team-img .team-icon {
@@ -837,7 +837,7 @@
     top: 0;
     left: 0;
     background: rgba(246, 138, 10, .2);
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: 1;
 }
 
@@ -846,7 +846,7 @@
 }
 
 .team .team-item .team-content {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .team .team-item:hover .team-content {
@@ -926,7 +926,7 @@
     height: 30px;
     margin: 30px 10px 0 10px;
     background: var(--bs-white);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 @media (max-width: 991px) {
@@ -939,7 +939,7 @@
     width: 30px;
     height: 30px;
     background: var(--bs-primary);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .testimonial-carousel .owl-dots .owl-dot span {
@@ -971,7 +971,7 @@
     justify-content: center;
     text-align: center;
     background: var(--bs-primary);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 /*** Testimonial End ***/
 
@@ -983,7 +983,7 @@
 .footer .footer-item a {
     line-height: 35px;
     color: var(--bs-white);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .footer .footer-item p {
@@ -996,7 +996,7 @@
 }
 
 .footer .footer-item .footer-btn a {
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .footer .footer-item .footer-btn a:hover {
